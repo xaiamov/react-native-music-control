@@ -1,3 +1,8 @@
+## [0.11.0](https://github.com/tanguyantoine/react-native-music-control/compare/release-2019-12-10...release-2020-02-16) (2020-02-16)
+
+- Add Fast Forward and Rewind actions in compact view ([#318](https://github.com/tanguyantoine/react-native-music-control/issues/318))
+- Stopping Foreground Service directly instead of starting the service and then stopping in onStartCommand ([#316](https://github.com/tanguyantoine/react-native-music-control/issues/316))
+
 ## [0.10.8](https://github.com/tanguyantoine/react-native-music-control/compare/v0.10.6...release-2019-12-10) (2019-12-09)
 
 - feat: handle Audio onFocusChanged if paused ([#308](https://github.com/tanguyantoine/react-native-music-control/issues/308))
