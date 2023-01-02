@@ -1,3 +1,10 @@
+## [0.12.0](https://github.com/tanguyantoine/react-native-music-control/compare/release-2020-02-16...release-2020-06-12) (2020-06-12)
+
+- Fix: non initialised notification variable ([#334](https://github.com/tanguyantoine/react-native-music-control/issues/334) from rborn/bugfix/code_errors)
+- Fix: Start foreground service ([#329](https://github.com/tanguyantoine/react-native-music-control/issues/329) from bunmiedee/startForegroundService)
+- Readme Overhaul May 2020 ([#325](https://github.com/tanguyantoine/react-native-music-control/issues/325))
+- Fixes android 7 api 24 compatibility issues
+
 ## [0.11.0](https://github.com/tanguyantoine/react-native-music-control/compare/release-2019-12-10...release-2020-02-16) (2020-02-16)
 
 - Add Fast Forward and Rewind actions in compact view ([#318](https://github.com/tanguyantoine/react-native-music-control/issues/318))
