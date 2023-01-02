@@ -18,11 +18,9 @@ jobs:
         uses: actions/checkout@v3
 
       - name: ☕️ Use Java 11
-        uses: JavaToolInstaller@0
+        uses: actions/setup-java@v1
         with:
-          versionSpec: 11
-          jdkArchitectureOption: x64
-          jdkSourceOption: PreInstalled
+          java-version: "11"
 
       - name: 🏗 Setup NodeJS
         uses: actions/setup-node@v3
