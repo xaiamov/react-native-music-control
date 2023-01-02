@@ -1,8 +1,20 @@
+## [1.4.0](https://github.com/swrlab/react-native-music-control/releases/tag/v.1.4.0) (2021-05-21)
+
+- feat: upgrade dependencies
+- update readme
+  - [#385](https://github.com/tanguyantoine/react-native-music-control/issues/385) from srobbin/chore/fix-readme-parenthesis
+  - [#386](https://github.com/tanguyantoine/react-native-music-control/issues/386) from dayze/patch-1
+- Add singleTask Activity instructions to Readme ([#383](https://github.com/tanguyantoine/react-native-music-control/issues/383) from tanguyantoine/feature/ReadmeUpdateActivity)
+- exception handling added and crash fixed ([#381](https://github.com/tanguyantoine/react-native-music-control/issues/381) from krunalbad/patch-1)
+- Adding mavenCentral() as jcenter() is shutting ([#382](https://github.com/tanguyantoine/react-native-music-control/issues/382) from maheshwarimrinal/patch-1)
+- Patch 2 - missing setNotificationId() added for android ([#368](https://github.com/tanguyantoine/react-native-music-control/issues/368))
+- change order of Sections in readme ([#370](https://github.com/tanguyantoine/react-native-music-control/issues/370))
+
 ## [1.3.0](https://github.com/tanguyantoine/react-native-music-control/tree/f6ef12b9cdd858baff903c1433b56b0975208d2b) (2020-11-30)
 
 - docs: update readme
 - Exports MusicControl.Command ([#361](https://github.com/tanguyantoine/react-native-music-control/issues/361))
-- fixed hide method to work with older SDKs ([#354](https://github.com/tanguyantoine/react-native-music-control/issues/354) from frknnay/fix)
+- fixed hide method to work with older SDKs ([#354](https://github.com/tanguyantoine/react-native-music-control/issues/354) from frknnay/fix/android-hide-for-older-sdks)
 - Fix Xcode 12 build errors ([#363](https://github.com/tanguyantoine/react-native-music-control/issues/363))
 - iOS Live Stream Indicator ([#353](https://github.com/tanguyantoine/react-native-music-control/issues/353))
 
