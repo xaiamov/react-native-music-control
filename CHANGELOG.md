@@ -1,3 +1,18 @@
+## [1.5.0](https://github.com/swrlab/react-native-music-control/compare/v.1.4.0...v1.5.0) (2022-07-19)
+
+- update project and readme
+- add command line build for ios
+- add foreground service type to startForeground()
+- increase target and compile sdk to 30
+- fix pod warning of inherited flags
+- fix ios build by adding podfile
+- update dependencies
+- fix android build and add npm-script
+- update spacing of java files and package.json
+- update gradle and android deps
+- Add foregroundServiceType to Android Manifest ([#402](https://github.com/tanguyantoine/react-native-music-control/issues/402) from tanguyantoine/bradleyflood-patch-1)
+- Fix Android Apps crashing when targeting v12 / SDK31 ([#397](https://github.com/tanguyantoine/react-native-music-control/issues/397) from rafaelmaeuer/dev/fix-android-12-pending-intent-mutability)
+
 ## [1.4.0](https://github.com/swrlab/react-native-music-control/releases/tag/v.1.4.0) (2021-05-21)
 
 - feat: upgrade dependencies
