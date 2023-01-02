@@ -1,3 +1,9 @@
+## [1.5.1](https://github.com/swrlab/react-native-music-control/compare/v1.5.0...v1.5.1) (2022-07-26)
+
+- wrap forceForeground in try-catch block
+- update dev-dependencies
+- simplify xcodebuild command
+
 ## [1.5.0](https://github.com/swrlab/react-native-music-control/compare/v.1.4.0...v1.5.0) (2022-07-19)
 
 - update project and readme
