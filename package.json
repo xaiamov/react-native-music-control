@@ -33,7 +33,7 @@
 		"start": "tsc -p tsconfig.json -w",
 		"pod:install": "cd ./ios && pod install",
 		"build:all": "yarn build:ios && yarn build:android",
-		"build:ios": "yarn pod:install && xcodebuild -workspace MusicControl.xcworkspace -scheme MusicControl -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.0'",
+		"build:ios": "cd ./ios && pod install && xcodebuild -workspace MusicControl.xcworkspace -scheme MusicControl -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.0' | xcpretty",
 		"build:android": "cd ./android && ./gradlew assembleDebug",
 		"test": "yarn build:all",
 		"semantic-release:ci": "semantic-release --no-ci",
