@@ -31,4 +31,4 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: 🧪 Run Tests
-        run: yarn build:android
+        run: yarn test
