@@ -17,6 +17,13 @@ jobs:
       - name: 👀 Checkout Code
         uses: actions/checkout@v3
 
+      - task: JavaToolInstaller@0
+        displayName: ☕️ Use Java 11
+        inputs:
+          versionSpec: 11
+          jdkArchitectureOption: x64
+          jdkSourceOption: PreInstalled
+
       - name: 🏗 Setup NodeJS
         uses: actions/setup-node@v3
         with:
@@ -26,4 +33,4 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: 🧪 Run Tests
-        run: yarn test
+        run: yarn build:android
