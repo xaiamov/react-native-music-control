@@ -8,22 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		13BE3DEE1AC21097009241FE /* MusicControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE3DED1AC21097009241FE /* MusicControlManager.m */; };
-		38D7FB64C75B559C1FC30DE1 /* libPods-MusicControl-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4449D1E643117D471FE341 /* libPods-MusicControl-tvOS.a */; };
-		A3FC28581EA7A8350097B6A9 /* MusicControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE3DED1AC21097009241FE /* MusicControlManager.m */; };
 		B9949C6D69BBDF588897387F /* libPods-MusicControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB564573EE728D47ACBAA3E /* libPods-MusicControl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3FC285A1EA7A8350097B6A9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
@@ -38,13 +27,9 @@
 		134814201AA4EA6300B7C361 /* libMusicControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMusicControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BE3DEC1AC21097009241FE /* MusicControlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicControlManager.h; sourceTree = "<group>"; };
 		13BE3DED1AC21097009241FE /* MusicControlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicControlManager.m; sourceTree = "<group>"; };
-		1D4449D1E643117D471FE341 /* libPods-MusicControl-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusicControl-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B257B3F8059ADAC22C73E81 /* Pods-MusicControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicControl.debug.xcconfig"; path = "Target Support Files/Pods-MusicControl/Pods-MusicControl.debug.xcconfig"; sourceTree = "<group>"; };
-		65AB9FD6C07081497E78EF0D /* Pods-MusicControl-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicControl-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MusicControl-tvOS/Pods-MusicControl-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		6A24C7250266CC302B1F88AA /* Pods-MusicControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicControl.release.xcconfig"; path = "Target Support Files/Pods-MusicControl/Pods-MusicControl.release.xcconfig"; sourceTree = "<group>"; };
 		7EB564573EE728D47ACBAA3E /* libPods-MusicControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusicControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A17D6313AE5670C0FB8E1517 /* Pods-MusicControl-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicControl-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MusicControl-tvOS/Pods-MusicControl-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A3FC285E1EA7A8350097B6A9 /* libMusicControl-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMusicControl-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +38,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9949C6D69BBDF588897387F /* libPods-MusicControl.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3FC28591EA7A8350097B6A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38D7FB64C75B559C1FC30DE1 /* libPods-MusicControl-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				7EB564573EE728D47ACBAA3E /* libPods-MusicControl.a */,
-				1D4449D1E643117D471FE341 /* libPods-MusicControl-tvOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -90,7 +66,6 @@
 				13BE3DEC1AC21097009241FE /* MusicControlManager.h */,
 				13BE3DED1AC21097009241FE /* MusicControlManager.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				A3FC285E1EA7A8350097B6A9 /* libMusicControl-tvOS.a */,
 				FCADB8DDCE644096C8510AA9 /* Pods */,
 				4DF716F797320CC26653A880 /* Frameworks */,
 			);
@@ -101,8 +76,6 @@
 			children = (
 				3B257B3F8059ADAC22C73E81 /* Pods-MusicControl.debug.xcconfig */,
 				6A24C7250266CC302B1F88AA /* Pods-MusicControl.release.xcconfig */,
-				A17D6313AE5670C0FB8E1517 /* Pods-MusicControl-tvOS.debug.xcconfig */,
-				65AB9FD6C07081497E78EF0D /* Pods-MusicControl-tvOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -126,24 +99,6 @@
 			name = MusicControl;
 			productName = RCTDataManager;
 			productReference = 134814201AA4EA6300B7C361 /* libMusicControl.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		A3FC28561EA7A8350097B6A9 /* MusicControl-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A3FC285B1EA7A8350097B6A9 /* Build configuration list for PBXNativeTarget "MusicControl-tvOS" */;
-			buildPhases = (
-				B8948203EDBC2F53B70ACDAE /* [CP] Check Pods Manifest.lock */,
-				A3FC28571EA7A8350097B6A9 /* Sources */,
-				A3FC28591EA7A8350097B6A9 /* Frameworks */,
-				A3FC285A1EA7A8350097B6A9 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MusicControl-tvOS";
-			productName = RCTDataManager;
-			productReference = A3FC285E1EA7A8350097B6A9 /* libMusicControl-tvOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +129,6 @@
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* MusicControl */,
-				A3FC28561EA7A8350097B6A9 /* MusicControl-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -202,28 +156,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B8948203EDBC2F53B70ACDAE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MusicControl-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -232,14 +164,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13BE3DEE1AC21097009241FE /* MusicControlManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3FC28571EA7A8350097B6A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3FC28581EA7A8350097B6A9 /* MusicControlManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,11 +203,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TVOS_DEPLOYMENT_TARGET = 12.4;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Debug;
 		};
@@ -314,10 +238,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TVOS_DEPLOYMENT_TARGET = 12.4;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -353,39 +277,6 @@
 			};
 			name = Release;
 		};
-		A3FC285C1EA7A8350097B6A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A17D6313AE5670C0FB8E1517 /* Pods-MusicControl-tvOS.debug.xcconfig */;
-			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		A3FC285D1EA7A8350097B6A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65AB9FD6C07081497E78EF0D /* Pods-MusicControl-tvOS.release.xcconfig */;
-			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,15 +294,6 @@
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,
 				58B511F11A9E6C8500147676 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A3FC285B1EA7A8350097B6A9 /* Build configuration list for PBXNativeTarget "MusicControl-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A3FC285C1EA7A8350097B6A9 /* Debug */,
-				A3FC285D1EA7A8350097B6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

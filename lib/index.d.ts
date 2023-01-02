@@ -1,6 +1,6 @@
 import { Command } from './types';
 export { Command };
-declare type TPlayingInfo = any;
+type TPlayingInfo = any;
 declare const MusicControl: {
     STATE_PLAYING: any;
     STATE_PAUSED: any;
