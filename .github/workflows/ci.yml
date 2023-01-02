@@ -17,9 +17,9 @@ jobs:
       - name: 👀 Checkout Code
         uses: actions/checkout@v3
 
-      - task: JavaToolInstaller@0
-        displayName: ☕️ Use Java 11
-        inputs:
+      - name: ☕️ Use Java 11
+        uses: JavaToolInstaller@0
+        with:
           versionSpec: 11
           jdkArchitectureOption: x64
           jdkSourceOption: PreInstalled
