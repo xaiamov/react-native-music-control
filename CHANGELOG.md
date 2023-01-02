@@ -1,3 +1,11 @@
+## [1.3.0](https://github.com/tanguyantoine/react-native-music-control/tree/f6ef12b9cdd858baff903c1433b56b0975208d2b) (2020-11-30)
+
+- docs: update readme
+- Exports MusicControl.Command ([#361](https://github.com/tanguyantoine/react-native-music-control/issues/361))
+- fixed hide method to work with older SDKs ([#354](https://github.com/tanguyantoine/react-native-music-control/issues/354) from frknnay/fix)
+- Fix Xcode 12 build errors ([#363](https://github.com/tanguyantoine/react-native-music-control/issues/363))
+- iOS Live Stream Indicator ([#353](https://github.com/tanguyantoine/react-native-music-control/issues/353))
+
 ## [1.2.1](https://github.com/tanguyantoine/react-native-music-control/tree/99a623fd918565f03a3f4e061547e57427ad97a0) (2020-10-12)
 
 - ci: fix versioning
