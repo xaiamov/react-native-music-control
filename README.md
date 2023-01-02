@@ -1,5 +1,7 @@
 # react-native-music-control
 
+*Updated fork of archived [tanguyantoine/react-native-music-control](https://github.com/tanguyantoine/react-native-music-control)*
+
 Display and manage media controls on lock screen and notification center for iOS and Android.
 
 <!-- ![NPM Version](https://img.shields.io/npm/v/react-native-music-control?style=flat-square 'NPM Version') -->
@@ -11,13 +13,13 @@ Display and manage media controls on lock screen and notification center for iOS
 With Yarn:
 
 ```sh
-yarn add react-native-music-control
+yarn add swrlab/react-native-music-control
 ```
 
 or with NPM:
 
 ```sh
-npm install react-native-music-control --save
+npm install swrlab/react-native-music-control --save
 ```
 
 ## iOS
