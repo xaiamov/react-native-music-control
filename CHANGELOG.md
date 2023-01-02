@@ -1,3 +1,16 @@
+## [1.5.2](https://github.com/swrlab/react-native-music-control/compare/v1.5.1...v1.5.2) (2023-01-02)
+
+- feat: use xcpretty for xcodebuild logs
+- fix: reactivate and update github actions
+- fix: update project links (project archived)
+- fix: update build:ios (iPhone 14, iOS 16)
+- chore: update dev-dependencies and pods
+- chore: update iOS deployment target to v13
+- chore: replace npm version-shield with github
+- chore: remove empty contributing file
+- chore: remove tv-OS target and scheme
+- security: update peer-dependencies
+
 ## [1.5.1](https://github.com/swrlab/react-native-music-control/compare/v1.5.0...v1.5.1) (2022-07-26)
 
 - wrap forceForeground in try-catch block
