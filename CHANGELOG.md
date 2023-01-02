@@ -1,3 +1,13 @@
+## [1.2.1](https://github.com/tanguyantoine/react-native-music-control/tree/99a623fd918565f03a3f4e061547e57427ad97a0) (2020-10-12)
+
+- ci: fix versioning
+- fix: push version commit
+- fix: set author
+- ci: fix typo
+- chore: remove github registry for now
+- ci: add workflow dispatch
+- fix: dependencies
+
 ## [1.0.0](https://github.com/tanguyantoine/react-native-music-control/compare/release-2020-02-16...release-2020-06-12) (2020-06-12)
 
 - Fixes for [#266](https://github.com/tanguyantoine/react-native-music-control/issues/266) ([#344](https://github.com/tanguyantoine/react-native-music-control/issues/344) from rborn/master)
