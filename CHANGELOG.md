@@ -1,3 +1,21 @@
+## [1.0.0](https://github.com/tanguyantoine/react-native-music-control/compare/release-2020-02-16...release-2020-06-12) (2020-06-12)
+
+- Fixes for [#266](https://github.com/tanguyantoine/react-native-music-control/issues/266) ([#344](https://github.com/tanguyantoine/react-native-music-control/issues/344) from rborn/master)
+  - Fix for session not always present when checking if active
+  - fix merge error for undefined NOTIFICATION_ID
+  - fix double definition
+  - Update MusicControlNotification.java
+  - modified to prevent crash
+  - Solve MusicControlModule exception issue
+  - replace prepack with prepublish script
+  - add lib dir back to the repo
+  - add react-native to dev dependencies
+  - try to bind service first
+  - add local binder instance
+  - Fixes crash android 9
+- Adjust playback speed while playing ([#336](https://github.com/tanguyantoine/react-native-music-control/issues/336) from SBShane/master)
+- Add setNotificationIds to Android ([#337](https://github.com/tanguyantoine/react-native-music-control/issues/337) from mixcloud/change-android-notification-ids)
+
 ## [0.12.0](https://github.com/tanguyantoine/react-native-music-control/compare/release-2020-02-16...release-2020-06-12) (2020-06-12)
 
 - Fix: non initialised notification variable ([#334](https://github.com/tanguyantoine/react-native-music-control/issues/334) from rborn/bugfix/code_errors)
