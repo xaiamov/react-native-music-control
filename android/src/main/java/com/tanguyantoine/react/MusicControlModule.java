@@ -40,6 +40,7 @@ import java.net.URLConnection;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
+import static android.content.Context.RECEIVER_NOT_EXPORTED;
 
 public class MusicControlModule extends ReactContextBaseJavaModule implements ComponentCallbacks2 {
     private static final String TAG = MusicControlModule.class.getSimpleName();
@@ -204,8 +205,12 @@ public class MusicControlModule extends ReactContextBaseJavaModule implements Co
         filter.addAction(MusicControlNotification.MEDIA_BUTTON);
         filter.addAction(Intent.ACTION_MEDIA_BUTTON);
         filter.addAction(AudioManager.ACTION_AUDIO_BECOMING_NOISY);
-        receiver = new MusicControlReceiver(this, context);
-        context.registerReceiver(receiver, filter);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+					context.registerReceiver(receiver, filter, RECEIVER_NOT_EXPORTED);
+				} else {
+					context.registerReceiver(receiver, filter);
+				}
 
         Intent myIntent = new Intent(context, MusicControlNotification.NotificationService.class);
 
@@ -279,8 +284,12 @@ public class MusicControlModule extends ReactContextBaseJavaModule implements Co
 
         ReactApplicationContext context = getReactApplicationContext();
 
-        context.unregisterReceiver(receiver);
-        context.unregisterComponentCallbacks(this);
+        try {
+					context.unregisterReceiver(receiver);
+					context.unregisterComponentCallbacks(this);
+        } catch (Exception e) {
+					// java.lang.IllegalArgumentException: Receiver not registered: null
+        }
 
         if (artworkThread != null && artworkThread.isAlive())
             artworkThread.interrupt();
